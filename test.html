@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stylish Profile Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(120deg, #1f1c2c, #928dab);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .red-box {
+      background: linear-gradient(to right, #c31432, #240b36);
+      width: 350px;
+      padding: 30px 25px;
+      border-radius: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .red-box:hover {
+      transform: scale(1.03);
+    }
+
+    .red-box img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      margin-bottom: 12px;
+      border: 3px solid #fff;
+    }
+
+    .red-box h1 {
+      color: #fff;
+      font-size: 2rem;
+      text-shadow: 0 0 8px #ff577f, 0 0 4px #fff;
+      margin-bottom: 10px;
+    }
+
+    .red-box p {
+      color: #eee;
+      font-size: 1rem;
+      margin-bottom: 6px;
+      opacity: 0.9;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+    }
+
+    .social-icons a {
+      color: #fff;
+      font-size: 1.6rem;
+      transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #ffd369;
+      transform: scale(1.3);
+      text-shadow: 0 0 10px #ffd369, 0 0 20px #ffd369;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="red-box">
+    <img src="profilepic.png" alt="Profile Photo">
+    <h1>AHMEDx06</h1>
+    <p>Adobe After Effect Editor</p>
+    <p>Viral TikTok Editor</p>
+
+    <div class="social-icons">
+      <a href="https://www.youtube.com/@AHMEDx06-y3d" target="_blank" title="YouTube">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://www.instagram.com/ahmed.x.06/" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
